@@ -11,13 +11,17 @@ Ce projet est une analyse de churn (attrition) dans le secteur des télécommuni
     - pandas
     - seaborn
     - scikit-learn
-2. **Visualisation** : Exploration et visualisation des données pour mieux comprendre les tendances et les distributions.
-3. **Préprocessing** : Nettoyage et préparation des données pour les algorithmes de machine learning.
-4. **Entraînement** :
+2. **Technologies additionnelles** :
+    - **Kafka** pour l'ingestion en temps réel des données de churn.
+    - **Spark Streaming** pour le traitement en flux des données.
+    - **MongoDB** pour le stockage et la gestion des données structurées.
+3. **Visualisation** : Exploration et visualisation des données pour mieux comprendre les tendances et les distributions.
+4. **Préprocessing** : Nettoyage et préparation des données pour les algorithmes de machine learning.
+5. **Entraînement** :
    - **Random Forest** : Application et évaluation du modèle Random Forest.
    - **SVM** : Application et évaluation du modèle Support Vector Machine.
    - **Gradient Boosting** : Application et évaluation du modèle Gradient Boosting.  
-5. **Optimisation des Hyperparamètres** :
+6. **Optimisation des Hyperparamètres** :
    - **GridSearch** : GridSearchCV est utilisé pour effectuer une recherche exhaustive sur un espace de grille spécifié d’hyperparamètres. Cela permet de trouver la meilleure combinaison d'hyperparamètres pour un modèle donné, améliorant ainsi sa performance.
    - **K-Fold Cross-Validation** : Cette technique divise les données en K sous-ensembles. Le modèle est entraîné sur K-1 de ces sous-ensembles et testé sur le sous-ensemble restant. Ce processus est répété K fois, chaque sous-ensemble servant exactement une fois de données de test. Cela permet de mieux évaluer la performance du modèle en utilisant différentes partitions des données.
 
